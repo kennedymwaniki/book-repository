@@ -80,7 +80,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>Book Repository</h1>
+      <h1>Book Repository Application</h1>
       <div className="form-container">
         <input ref={titleRef} placeholder="Title" />
         <input ref={authorRef} placeholder="Author" />
