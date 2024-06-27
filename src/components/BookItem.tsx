@@ -45,10 +45,10 @@ const BookItem: React.FC<BookItemProps> = ({ book, dispatch }) => {
             <button onClick={() => setIsEditing(false)}>Cancel</button>
           </>
         ) : (
-          <>
-            <button onClick={() => setIsEditing(true)}>Edit</button>
-            <button onClick={handleDelete}>Delete</button>
-          </>
+          <div className="">
+            <button className="edit" onClick={() => setIsEditing(true)}>Edit</button>
+            <button className="delete" onClick={handleDelete}>Delete</button>
+          </div>
         )}
       </td>
     </tr>
